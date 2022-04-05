@@ -1,0 +1,64 @@
+.adventure-details{
+    height: 100%;
+    margin-bottom:14vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 2%;
+}
+
+.adventure-left{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    height: 100vh;
+    width: 100%;
+    padding-top: 11vh;
+}
+
+.adventure-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.adventure-left{
+    align-items: center;
+
+}
+
+.adventure-left img{
+    height: 50vh;
+    width: 85%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.adventure-right{
+    width:100%;
+}
+
+.vendors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.vendor {
+    border-radius: 10px;
+    width: 30%;
+    height: 86vh;
+    display: grid;
+    place-items: start;
+    padding: 2%;
+}
+
+.vendor-header{
+    margin-top: -2%;
+}
+
+.nm{
+    margin-bottom: -10%;
+}
